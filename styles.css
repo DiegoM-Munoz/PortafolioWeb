@@ -113,3 +113,24 @@ a:hover {
 #sobre-mi p {
     margin-bottom: 20px;
 }
+
+/* Organizar los elementos de mis habilidades */
+#habilidades img {
+    width: 60px;
+    height: 60px;
+} 
+#habilidades ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#habilidades div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+} 
+
+#habilidades ol {
+    display: contents;
+}
