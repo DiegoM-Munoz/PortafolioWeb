@@ -108,3 +108,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Interlineado entre parrafos "sobre mi" */
+#sobre-mi p {
+    margin-bottom: 20px;
+}
