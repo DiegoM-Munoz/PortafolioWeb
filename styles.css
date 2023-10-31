@@ -119,6 +119,7 @@ a:hover {
     width: 60px;
     height: 60px;
 } 
+
 #habilidades ul {
     display: flex;
     flex-direction: row;
@@ -138,37 +139,30 @@ a:hover {
 }
 
 /* Estilos Sección Cetificaciones */
-.main {
+.divMain{
     display: grid;
-    gap: 10px;
+    gap: 40px;
     /* "grid-template-areas" permite definir la cuadrilla como se distribuira en el grid (Se debe asignar el nombre a cada elemento de la cuadrilla por medio de 'grid-area:') */
     grid-template-areas: 
     "title      title      title"
-    "cert1      cert2      cert3";
+    "cert1      cert2      cert3"
+    "cert4      cert5      cert6";
     /* "grid-template-columns" define el ancho de las columnas */
-    grid-template-columns: auto      auto     auto;
+    grid-template-columns: 300px      300px     300px;
     /* "grid-template-rows" define el alto de las filas */
     grid-template-rows: auto      auto;
     justify-content: space-evenly;
     justify-items: center;
+    margin-bottom: 150px;
 }
 #title{
     grid-area: title;
 }
-#cert1{
-    grid-area: cert1;
-}
-#cert2{
-    grid-area: cert2;
-}
-#cert3{
-    grid-area: cert3;
-}
 
-#certificaciones img {
-    width: 60px;
-    height: 60px;
-} 
+#certificate {
+    width: 260px;
+    height: 200px;
+}
 
 #certificaciones div {
     display: flex;
@@ -180,3 +174,44 @@ a:hover {
 #certificaciones ol {
     display: contents;
 }
+
+.card .face{
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    cursor: pointer;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    display: flex;
+}
+
+.card:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+#ingSoft{
+    grid-area: cert1;
+}
+#git{
+    grid-area: cert2;
+}
+#cert3{
+    grid-area: cert3;
+}
+
+#logo {
+    width: 60px;
+    height: 60px;
+} 
