@@ -155,6 +155,17 @@ a:hover {
     justify-items: center;
     margin-bottom: 150px;
 }
+
+#ingSoft{
+    grid-area: cert1;
+}
+#git{
+    grid-area: cert2;
+}
+#programacionBasica{
+    grid-area: cert3;
+}
+
 #title{
     grid-area: title;
 }
@@ -199,16 +210,6 @@ a:hover {
 
 .card:hover .back{
     transform: perspective(600px) rotateY(360deg);
-}
-
-#ingSoft{
-    grid-area: cert1;
-}
-#git{
-    grid-area: cert2;
-}
-#cert3{
-    grid-area: cert3;
 }
 
 #logo {
