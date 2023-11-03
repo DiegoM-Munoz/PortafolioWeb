@@ -7,8 +7,8 @@ body, h1, h2, h3, p, ul, li {
 /* Estilo para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #00bfa5;
+    color: #fff;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ body {
 
 /* Estilo para el encabezado */
 header {
-    background-color: #007bff;
+    background-color: #2979ff;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -35,7 +35,7 @@ p {
 
 /* Estilo para la barra de navegación */
 nav {
-    background-color: #333;
+    background-color: #ff3d00;
 }
 
 /* Estilo para los enlaces en la barra de navegación */
@@ -59,7 +59,7 @@ nav a {
 
 /* Estilo para las secciones */
 section {
-    background-color: #fff;
+    background-color: #2979ff;
     padding: 20px;
     margin: 20px;
     border-radius: 5px;
@@ -70,7 +70,7 @@ section {
 h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #333;
+    color: #fff;
 }
 
 /* Estilo para los proyectos */
@@ -87,7 +87,7 @@ ul {
 /* Estilo para el pie de página */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #76ff03;
     color: #fff;
     padding: 10px;
 }
