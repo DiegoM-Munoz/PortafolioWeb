@@ -20,6 +20,24 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    display: grid;
+    grid-template-areas: 
+    "foto      titulo     none"
+    "foto      titulo     none"
+    "foto      redes      none";
+    /* Se puede asignar el valor dentro del grid directamente en el HTML en el "style="grid-area: header;"" (después del id="") */
+    grid-template-columns: auto      auto     auto;
+    grid-template-rows: auto      auto      auto;
+}
+.redes-sociales img {
+    width: 30px;
+    height: auto;
+}
+
+#foto-Perfil {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
 }
 
 /* Estilo para el título principal */
@@ -142,7 +160,6 @@ a:hover {
 .divMain{
     display: grid;
     gap: 40px;
-    /* "grid-template-areas" permite definir la cuadrilla como se distribuira en el grid (Se debe asignar el nombre a cada elemento de la cuadrilla por medio de 'grid-area:') */
     grid-template-areas: 
     "title      title      title"
     "cert1      cert2      cert3"

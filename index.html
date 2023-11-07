@@ -7,9 +7,39 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Diego Muñoz</h1>
-      <p>Programador Web</p>
+    <header class="header">
+      <div class="foto-perfil" style="grid-area: foto;">
+        <img
+          src="Images/foto_perfil_Diego_Muñoz.jpg"
+          alt="foto_Diego_Muñoz"
+          id="foto-Perfil"
+        />
+      </div>
+      <div class="titulo" style="grid-area: titulo;">
+        <h1>Diego Muñoz</h1>
+        <p>Programador Web</p>
+      </div>
+      <div class="redes-sociales" style="grid-area: redes;">
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+            <img src="Images/facebook_logo.webp" alt="Facebook">
+        </a>
+        <a href="https://www.linkedin.com/in/tu_perfil_de_linkedin" target="_blank">
+          <img src="Images/linkedin-icon.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com/tu_perfil_de_twitter" target="_blank">
+            <img src="Images/twitter-icon.png" alt="X">
+        </a>
+        <a href="https://www.linkedin.com/in/tu_perfil_de_linkedin" target="_blank">
+            <img src="Images/linkedin-icon.png" alt="LinkedIn">
+        </a>
+        <a href="https://www.linkedin.com/in/tu_perfil_de_linkedin" target="_blank">
+          <img src="Images/linkedin-icon.png" alt="TikTok">
+        </a>
+        <a href="https://www.linkedin.com/in/tu_perfil_de_linkedin" target="_blank">
+          <img src="Images/linkedin-icon.png" alt="WhatsApp">
+        </a>
+        <!-- Agrega más enlaces e iconos aquí -->
+    </div>
     </header>
 
     <nav>
@@ -178,8 +208,8 @@
       <h2>Certificaciones</h2>
       <div class="main">
         <ul class="divMain">
-          <h3 id="title">Certificaciones de Platzi</h3>
-          <div class="card" id="ingSoft">
+          <h3 id="title" style="grid-area: title;">Certificaciones de Platzi</h3>
+          <div class="card" id="ingSoft" style="grid-area: cert1;">
             <div class="face front">
               <ol>
                 <img
@@ -244,8 +274,7 @@
     <section id="contacto">
       <h2>Contacto</h2>
       <p>
-        Puedes contactarme en dmauro.1310@gmail.com o a través de mis redes
-        sociales.
+        Puedes contactarme a través de mi correo electrónico: <b>dmauro.1310@gmail.com</b> o en mis redes sociales.
       </p>
     </section>
 
