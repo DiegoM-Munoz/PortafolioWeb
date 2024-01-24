@@ -26,7 +26,7 @@ header {
     "foto      titulo     none"
     "foto      redes      none";
     /* Se puede asignar el valor dentro del grid directamente en el HTML en el "style="grid-area: header;"" (después del id="") */
-    grid-template-columns: auto      auto     auto;
+    grid-template-columns: 650px      350px     650px;
     grid-template-rows: auto      auto      auto;
 }
 .redes-sociales img {
@@ -38,6 +38,11 @@ header {
     width: 150px;
     height: auto;
     border-radius: 50%;
+}
+
+.foto-perfil {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 /* Estilo para el título principal */
@@ -167,12 +172,15 @@ a:hover {
     /* "grid-template-columns" define el ancho de las columnas */
     grid-template-columns: 300px      300px     300px;
     /* "grid-template-rows" define el alto de las filas */
-    grid-template-rows: auto      auto;
+    grid-template-rows: 30px      160px     50px;
     justify-content: space-evenly;
     justify-items: center;
     margin-bottom: 150px;
 }
 
+#title{
+    grid-area: title;
+}
 #ingSoft{
     grid-area: cert1;
 }
@@ -182,9 +190,8 @@ a:hover {
 #programacionBasica{
     grid-area: cert3;
 }
-
-#title{
-    grid-area: title;
+#webChatGpt{
+    grid-area: cert4;
 }
 
 #certificate {
